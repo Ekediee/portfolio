@@ -31,3 +31,17 @@ body {
     text-wrap: balance;
   }
 }
+
+.animate-rotation {
+  animation: animate 5s linear infinite;
+  transform-origin: 0
+}
+@keyframes animate {
+  from {
+      transform: rotate(0deg);
+  }
+  to {
+      transform: rotate(360deg);
+  }
+}
+
